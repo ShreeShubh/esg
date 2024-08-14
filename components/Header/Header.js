@@ -29,7 +29,7 @@ export default function Header() {
           <Link href="/contact-us">
             <button
               type="button"
-              className="text-white bg-cms-primary focus:ring-4 focus:outline-none focus:ring-cms-secondary font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="text-white bg-cms-primary focus:ring-4 focus:outline-none focus:ring-cms-secondary font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ml-8"
             >
               Contact Us
             </button>
@@ -60,7 +60,7 @@ export default function Header() {
           </button>
         </div>
         <div
-          className={`absolute top-full left-0 w-full bg-white dark:bg-gray-800 md:static md:w-auto md:flex md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 ${
+          className={`ml-auto absolute top-full left-0 w-full bg-white dark:bg-gray-800 md:static md:w-auto md:flex md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white md:dark:bg-gray-900 dark:border-gray-700 ${
             menuOpen ? "block" : "hidden"
           }`}
           id="navbar-sticky"
