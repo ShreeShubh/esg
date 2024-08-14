@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^1.7.3",
+    "flowbite": "^2.5.1",
+    "flowbite-react": "^0.10.1",
+    "next": "14.2.5",
     "react": "^18",
+    "react-countup": "^6.5.3",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-multi-carousel": "^2.8.5"
   },
   "devDependencies": {
     "postcss": "^8",
