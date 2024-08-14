@@ -5,6 +5,9 @@ import React from "react"
 const EsgBenefits = () => {
   return (
     <div className="bg-[#F8F2FC] p-6 md:p-10 flex flex-col items-center gap-6 md:gap-8 mt-[480px] lg:mt-16">
+      <h2 className="text-2xl text-[#622F88] font-semibold block md:hidden">
+        ESG Value for Value Chains
+      </h2>
       <div className="flex justify-center w-full">
         <Image
           src="/whyEsgOne/image02.png"
@@ -25,7 +28,7 @@ const EsgBenefits = () => {
         <h3 className="text-[#622F88] text-2xl md:text-3xl font-semibold">
           Frameworks We Align With
         </h3>
-        <ul className="flex flex-wrap justify-center gap-4 md:gap-6">
+        <ul className="flex flex-wrap justify-center gap-2 md:gap-6">
           {frameworksData.map((item) => {
             return (
               <li key={item.id} className="flex items-center justify-center">
