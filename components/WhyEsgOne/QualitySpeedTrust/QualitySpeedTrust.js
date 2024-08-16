@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 
 const QualitySpeedTrust = () => {
@@ -14,7 +15,7 @@ const QualitySpeedTrust = () => {
         />
       </div>
 
-      <div className="space-y-4 px-5 lg:px-10 w-full lg:w-1/2">
+      <div className="px-5 lg:px-10 w-full lg:w-1/2 flex flex-col gap-4">
         <h3 className="text-[#622F88] text-2xl lg:text-3xl font-semibold">
           Quality, Speed, and Trust
         </h3>
@@ -27,9 +28,11 @@ const QualitySpeedTrust = () => {
           risks. Together, we can build a sustainable future where businesses
           thrive and communities flourish.
         </p>
-        <button className="px-4 py-2 bg-cms-primary text-white rounded hover:focus:ring-4 focus:ring-cms-secondary">
-          Start Your ESG Journey
-        </button>
+        <Link href="/contact-us">
+          <button className="px-4 py-2 bg-cms-primary text-white rounded hover:focus:ring-4 focus:ring-cms-secondary">
+            Start Your ESG Journey
+          </button>
+        </Link>
       </div>
     </div>
   )
