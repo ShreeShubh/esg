@@ -11,6 +11,7 @@ const Solutions = () => {
             <li
               key={item.id}
               className="bg-[#EFFAF7] w-full md:w-[414px] relative rounded-lg"
+              data-aos={item.animation}
             >
               <div className="pt-10 pb-5 px-5">
                 <h2 className="text-xl md:text-2xl text-[#622F88] font-semibold">

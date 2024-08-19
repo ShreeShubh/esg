@@ -5,10 +5,16 @@ import React from "react"
 const BusinessBenefits = () => {
   return (
     <div className="flex flex-col items-center gap-3 mt-5 mb-16 px-4 md:px-0">
-      <h2 className="text-2xl font-semibold text-[#622F88] text-center">
+      <h2
+        className="text-2xl font-semibold text-[#622F88] text-center"
+        data-aos="fade-up"
+      >
         Business Benefits
       </h2>
-      <p className="text-lg text-[#171717] text-center max-w-2xl">
+      <p
+        className="text-lg text-[#171717] text-center max-w-2xl"
+        data-aos="fade-down"
+      >
         Our ESG solutions align with market demands and stakeholder
         expectations, enhancing your:
       </p>
@@ -22,6 +28,7 @@ const BusinessBenefits = () => {
                 className={`pb-10 lg:pb-0 lg:m-5 border-b-4 md:border-none ${
                   index === businessData.length - 1 ? "border-b-0" : ""
                 }`}
+                data-aos={item.animation}
               >
                 <div className="flex flex-col-reverse md:flex-row items-center gap-4">
                   <div

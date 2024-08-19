@@ -4,7 +4,10 @@ import React from "react"
 
 const QualitySpeedTrust = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-5 items-center my-16">
+    <div
+      className="flex flex-col lg:flex-row gap-5 items-center my-16"
+      data-aos="fade-up"
+    >
       <div className="w-full lg:w-1/2">
         <Image
           src="/whyEsgOne/image03.png"

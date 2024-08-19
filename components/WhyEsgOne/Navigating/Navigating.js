@@ -25,7 +25,10 @@ const Navigating = () => {
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-around mt-28 lg:mt-7 w-full md:w-10/12 gap-4 md:gap-0">
-          <div className="border-8 border-[#D0EAE2] rounded-[36px] w-full md:w-auto">
+          <div
+            className="border-8 border-[#D0EAE2] rounded-[36px] w-full md:w-auto"
+            data-aos="fade-right"
+          >
             <div className="bg-[#239F79] rounded-3xl m-2 py-7 px-5 md:px-7 flex flex-col items-center gap-2 text-white h-auto md:h-[180px]">
               <h4 className="text-center text-lg md:text-2xl font-semibold">
                 Align with Buyer Requirements
@@ -38,7 +41,10 @@ const Navigating = () => {
             </div>
           </div>
 
-          <div className="border-8 border-[#D0EAE2] rounded-[36px] w-full md:w-auto">
+          <div
+            className="border-8 border-[#D0EAE2] rounded-[36px] w-full md:w-auto"
+            data-aos="fade-left"
+          >
             <div className="bg-[#239F79] rounded-3xl m-2 py-7 px-5 md:px-7 flex flex-col items-center gap-2 text-white h-auto md:h-[180px]">
               <h4 className="text-center text-lg md:text-2xl font-semibold">
                 Comply with Regulations

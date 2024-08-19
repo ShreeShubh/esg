@@ -3,7 +3,7 @@ import React from "react"
 
 const ExtensiveExperience = () => {
   return (
-    <div className="flex justify-center my-12 md:my-20 px-4">
+    <div className="flex justify-center my-12 md:my-20 px-4" data-aos="fade-up">
       <div className="bg-[#D0EAE2] py-4 md:py-6 px-6 md:px-10 rounded-3xl flex flex-col md:flex-row items-center gap-4 md:gap-6">
         <Image
           src="/whyEsgOne/icon01.svg"

@@ -12,6 +12,7 @@ import Footer from "@/components/Esg/Footer"
 import Contact from "@/components/Esg/Contact"
 import Banner from "@/components/Esg/Banner"
 import Heading from "@/components/Heading/Heading"
+import Solutions from "@/components/Solutions/Solutions"
 
 export default function Home() {
   // const section1Ref = useRef(null)

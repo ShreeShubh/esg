@@ -1,3 +1,5 @@
+"use client"
+
 import Banner from "@/components/Banner/Banner"
 import Contact from "@/components/Esg/Contact"
 import Footer from "@/components/Esg/Footer"
@@ -6,8 +8,18 @@ import BusinessBenefits from "@/components/Solutions/BusinessBenefits"
 import Solutions from "@/components/Solutions/Solutions"
 import StepImplementation from "@/components/Solutions/StepImplementation"
 import Image from "next/image"
+import { useEffect } from "react"
+import AOS from "aos"
 
 const page = () => {
+  useEffect(() => {
+    AOS.init({
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: "ease",
+    })
+  })
+
   const bannerImageUrl = "/banner/banner03.png"
   const mobileBannerUrl = "/banner/mobileBanner03.jpg"
   const bannerTitle = "Solutions"
@@ -29,7 +41,7 @@ const page = () => {
 
       <Heading title={title} desc={desc} />
 
-      <div className="flex justify-center mb-16">
+      <div className="flex justify-center mb-16" data-aos="fade-up">
         <div className="flex justify-center">
           <Image
             src="/solutions/image01.png"

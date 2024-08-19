@@ -139,6 +139,7 @@ export const solutionsData = [
     iconUrl: "/solutions/icon01.svg",
     title1: "Environmental",
     title2: "Solutions",
+    animation: "fade-up",
     content: [
       {
         title: "Material Circularity:",
@@ -167,6 +168,7 @@ export const solutionsData = [
     iconUrl: "/solutions/icon02.svg",
     title1: "Social",
     title2: "Commitments",
+    animation: "fade-down",
     content: [
       {
         title: "Digital & Financial Inclusion:",
@@ -195,6 +197,7 @@ export const solutionsData = [
     iconUrl: "/solutions/icon03.svg",
     title1: "Governance",
     title2: "Excellence",
+    animation: "fade-up",
     content: [
       {
         title: "Strengthening Institutional Policies:",
@@ -213,21 +216,25 @@ export const businessData = [
     title: "Stakeholder Trust and Transparency",
     desc: "Strengthen relationships with investors, customers, and employees through clear, consistent communication and demonstrated ethical practices",
     iconUrl: "/solutions/business/icon01.svg",
+    animation: "fade-right",
   },
   {
     title: "Export Readiness and Compliance",
     desc: "Ensure adherence to stringent national and international standards, preparing your business for global markets",
     iconUrl: "/solutions/business/icon02.svg",
+    animation: "fade-left",
   },
   {
     title: "Operational Efficiency",
     desc: "Streamline processes and reduce costs, while improving risk management and operational agility",
     iconUrl: "/solutions/business/icon03.svg",
+    animation: "fade-right",
   },
   {
     title: "Long-term Sustainability",
     desc: "Build resilience into your operations, securing the future of your business in a competitive landscape",
     iconUrl: "/solutions/business/icon04.svg",
+    animation: "fade-left",
   },
 ]
 
@@ -236,21 +243,25 @@ export const implementationData = [
     title: "Communicate",
     desc: "We help you track and report progress, providing a transparent view of the impact and benefits realised",
     iconUrl: "/solutions/implementation/icon01.svg",
+    animation: "fade-right",
   },
   {
     title: "Diagnose",
     desc: "We assess your specific needs across the ESG spectrum, setting clear, actionable goals",
     iconUrl: "/solutions/implementation/icon02.svg",
+    animation: "fade-left",
   },
   {
     title: "Execute",
     desc: "Our dedicated ESG team implements these solutions, delivering measurable results and fostering growth across multiple domains",
     iconUrl: "/solutions/implementation/icon03.svg",
+    animation: "fade-right",
   },
   {
     title: "Collaborate",
     desc: "We co-design solutions with you, ensuring they are practical and aligned with internal goals while bringing innovative partnerships for enhanced ROI",
     iconUrl: "/solutions/implementation/icon04.svg",
+    animation: "fade-left",
   },
 ]
 

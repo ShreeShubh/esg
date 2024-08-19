@@ -3,7 +3,10 @@ import React from "react"
 
 const WhyChooseEsgOne = () => {
   return (
-    <div className="flex flex-col items-center gap-3 md:gap-5 px-4 md:px-8">
+    <div
+      className="flex flex-col items-center gap-3 md:gap-5 px-4 md:px-8"
+      data-aos="fade-up"
+    >
       <h1 className="text-3xl md:text-5xl text-center">
         Why Choose{" "}
         <span className="text-cms-primary-green font-semibold">ESG-One?</span>

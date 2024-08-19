@@ -18,6 +18,7 @@ const BusinessBenefits = () => {
                 className={`pb-10 lg:pb-0 lg:m-5 border-b-4 md:border-none ${
                   index === businessData.length - 1 ? "border-b-0" : ""
                 }`}
+                data-aos={item.animation}
               >
                 <div className="flex flex-col-reverse md:flex-row items-center gap-4">
                   <div

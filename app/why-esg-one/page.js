@@ -1,3 +1,5 @@
+"use client"
+
 import Banner from "@/components/Banner/Banner"
 import Footer from "@/components/Esg/Footer"
 import Header from "@/components/Esg/Header"
@@ -7,8 +9,18 @@ import ExtensiveExperience from "@/components/WhyEsgOne/ExtensiveExperience/Exte
 import Navigating from "@/components/WhyEsgOne/Navigating/Navigating"
 import QualitySpeedTrust from "@/components/WhyEsgOne/QualitySpeedTrust/QualitySpeedTrust"
 import WhyChooseEsgOne from "@/components/WhyEsgOne/WhyChooseEsgOne/WhyChooseEsgOne"
+import AOS from "aos"
+import { useEffect } from "react"
 
 const page = () => {
+  useEffect(() => {
+    AOS.init({
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: "ease",
+    })
+  })
+
   const bannerImageUrl = "/banner/banner02.png"
   const mobileBannerUrl = "/banner/mobileBanner02.jpg"
   const bannerTitle = "Why ESG-One"
