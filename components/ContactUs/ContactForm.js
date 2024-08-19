@@ -10,6 +10,8 @@ const ContactForm = () => {
     organisation: "",
   })
 
+  const [isSubmitted, setIsSubmitted] = useState(false)
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -19,7 +21,14 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Handle form submission logic here
+    setFormData({
+      firstName: "",
+      lastName: "",
+      phoneNumber: "",
+      email: "",
+      organisation: "",
+    })
+    setIsSubmitted(true)
     console.log("Form data submitted:", formData)
   }
 
@@ -29,7 +38,9 @@ const ContactForm = () => {
       className="w-full lg:w-[600px] mx-auto p-6 bg-white shadow-md rounded-lg"
     >
       <p className="text-gray-700 mb-4">
-        Please note: all fields are required.
+        {isSubmitted
+          ? "Submitted! Thank you for contacting us."
+          : "Please note: all fields are required."}
       </p>
 
       <div className="mb-4">

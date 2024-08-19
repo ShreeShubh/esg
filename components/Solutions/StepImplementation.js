@@ -9,11 +9,16 @@ const BusinessBenefits = () => {
         4-Step Implementation
       </h2>
 
-      <div className="flex justify-center mt-5 w-full">
+      <div className="flex justify-center mt-5 w-full relative">
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {implementationData.map((item, index) => {
             return (
-              <li key={index}>
+              <li
+                key={index}
+                className={`pb-10 lg:pb-0 lg:m-5 border-b-4 md:border-none ${
+                  index === businessData.length - 1 ? "border-b-0" : ""
+                }`}
+              >
                 <div className="flex flex-col-reverse md:flex-row items-center gap-4">
                   <div
                     className={`flex flex-col w-full md:w-[420px] ${
@@ -53,6 +58,24 @@ const BusinessBenefits = () => {
             )
           })}
         </ul>
+        <div className="absolute top-1/2 hidden lg:block">
+          <Image
+            src="/solutions/business/rectangle01.svg"
+            width={696}
+            height={7}
+            className="rectangle w-[500px] h-[7px]"
+            alt="horizontal-line"
+          />
+        </div>
+        <div className="absolute top-8 hidden lg:block">
+          <Image
+            src="/solutions/business/rectangle02.svg"
+            width={7}
+            height={374}
+            className="rectangle h-[250px] w-[7px]"
+            alt="vertical-line"
+          />
+        </div>
       </div>
     </div>
   )
