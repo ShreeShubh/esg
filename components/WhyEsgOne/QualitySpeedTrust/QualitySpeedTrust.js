@@ -23,15 +23,15 @@ const QualitySpeedTrust = () => {
           Quality, Speed, and Trust
         </h3>
         <p>
-          ESG-One offers a unique blend of quality, speed, and trust, making us
-          your ideal ESG partner. Our expertise, innovative approaches, and
+          We offers a unique blend of quality, speed, and trust, making us your
+          ideal ESG partner. Our expertise, innovative approaches, and
           commitment to excellence ensure your business not only meets but
-          exceeds expectations. Partner with ESG-One to drive inclusive and
-          equitable growth, avoid social disharmony, and mitigate environmental
-          risks. Together, we can build a sustainable future where businesses
-          thrive and communities flourish.
+          exceeds expectations. Partner with us to drive inclusive and equitable
+          growth, avoid social disharmony, and mitigate environmental risks.
+          Together, we can build a sustainable future where businesses thrive
+          and communities flourish.
         </p>
-        <Link href="/contact-us">
+        <Link href="/#contact">
           <button className="px-4 py-2 bg-cms-primary text-white rounded hover:focus:ring-4 focus:ring-cms-secondary">
             Start Your ESG Journey
           </button>

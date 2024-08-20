@@ -21,7 +21,7 @@ const Navigating = () => {
           regulations impacting the top 250 companies by market capitalisation
           in India and EU exporters. This shift places significant pressure on
           value chain players, particularly MSMEs, to align with these
-          requirements. ESG-One equips your business to:
+          requirements. We will equips your business to:
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-around mt-28 lg:mt-7 w-full md:w-10/12 gap-4 md:gap-0">

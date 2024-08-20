@@ -9,7 +9,7 @@ const WhyChooseEsgOne = () => {
     >
       <h1 className="text-3xl md:text-5xl text-center">
         Why Choose{" "}
-        <span className="text-cms-primary-green font-semibold">ESG-One?</span>
+        <span className="text-cms-primary-green font-semibold">Us?</span>
       </h1>
       <p className="text-xl md:text-2xl text-cms-primary text-center font-semibold">
         Comprehensive Expertise

@@ -26,7 +26,7 @@ export default function Header() {
           </span>
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <Link href="/contact-us">
+          <Link href="/#contact">
             <button
               type="button"
               className="text-white bg-cms-primary focus:ring-4 focus:outline-none focus:ring-cms-secondary font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ml-8"
@@ -72,7 +72,7 @@ export default function Header() {
                 onClick={closeMenu}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-cms-primary md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                Why ESG-One
+                Why ESG
               </Link>
             </li>
             <li>
@@ -86,7 +86,8 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/resources"
+                href="https://cms.org.in/insights"
+                target="_blank"
                 onClick={closeMenu}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-cms-primary md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >

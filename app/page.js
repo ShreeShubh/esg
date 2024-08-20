@@ -15,17 +15,14 @@ import Heading from "@/components/Heading/Heading"
 import Solutions from "@/components/Solutions/Solutions"
 
 export default function Home() {
-  // const section1Ref = useRef(null)
-  // const scrollToSection1 = () => {
-  //   section1Ref.current.scrollIntoView({ behavior: "smooth" })
-  // }
+  const contactRef = useRef(null)
 
   const bannerImageUrl = "/banner/banner01.png"
   const mobileBannerUrl = "/banner/mobileBanner01.jpg"
   const bannerTitle = "Sustainable Tomorrow"
   const bannerDesc = "Catalysing Net-Positive Value Chains for a"
   const desc =
-    "In a world where the impacts of our actions resonate far beyond immediate boundaries, the need for comprehensive sustainability practices becomes crucial. At ESG-One, we understand that it’s no longer sufficient for organisations to focus solely on direct controls within their operations. True sustainability requires a holistic approach, extending responsible business practices throughout the entire value chain by implementing changes in policy and practice that focus on people, the planet, and sustainable outcomes."
+    "In a world where the impact of our actions resonate far beyond immediate boundaries, the need for comprehensive sustainability practices becomes crucial. We understand that it’s no longer sufficient for organisations to focus solely on direct controls within their operations. True sustainability requires a holistic approach, extending responsible business practices throughout the entire value chain. This can be achieved by implementing changes in policy and practice that focus on people, the planet, and sustainable outcomes."
 
   useEffect(() => {
     AOS.init({
@@ -33,7 +30,11 @@ export default function Home() {
       duration: 400, // values from 0 to 3000, with step 50ms
       easing: "ease",
     })
-  })
+
+    if (window.location.hash === "#contact") {
+      contactRef.current.scrollIntoView({})
+    }
+  }, [])
 
   return (
     <>
@@ -52,7 +53,7 @@ export default function Home() {
       <DifferentSectors />
       <Vision />
       <OurTeam />
-      <Contact />
+      <Contact ref={contactRef} />
       <Footer />
     </>
   )
