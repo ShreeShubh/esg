@@ -20,7 +20,7 @@ export default function Outcome({ onClick }) {
           />
         </div>
         <div className="absolute bottom-6">
-          <Link href="/contact-us">
+          <Link href="#contact">
             <button
               className="bg-[#7F3F97] p-2 px-4 rounded-lg text-white"
               onClick={onClick}
@@ -43,7 +43,7 @@ export default function Outcome({ onClick }) {
         data-aos="zoom-in"
       >
         <div className="absolute bottom-4">
-          <Link href="/contact-us">
+          <Link href="#contact">
             <button
               className="bg-[#7F3F97] p-2 px-4 rounded-lg text-white"
               onClick={onClick}

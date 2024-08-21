@@ -17,7 +17,7 @@ const Contact = React.forwardRef((props, ref) => {
   }
 
   return (
-    <div className=" bg-[#05AC8D] py-8 " ref={ref}>
+    <div id="contact" className=" bg-[#05AC8D] py-8 " ref={ref}>
       <div className="flex flex-col mx-auto">
         <div className="text-center mx-auto">
           <h3 className="text-white text-2xl mb-4">Contact Us</h3>

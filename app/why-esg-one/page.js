@@ -2,7 +2,6 @@
 
 import Banner from "@/components/Banner/Banner"
 import Footer from "@/components/Esg/Footer"
-import Header from "@/components/Esg/Header"
 import Heading from "@/components/Heading/Heading"
 import EsgBenefits from "@/components/WhyEsgOne/EsgBenefits/EsgBenefits"
 import ExtensiveExperience from "@/components/WhyEsgOne/ExtensiveExperience/ExtensiveExperience"
